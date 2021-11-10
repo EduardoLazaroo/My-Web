@@ -1,0 +1,387 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+/**Boot CSS**/
+
+html,body{
+    height: 100%;
+}
+
+img{
+    width: 100%;
+    max-width: 500px;
+}
+
+input{
+    border: 0;
+}
+
+.center{
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.w33{
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+.w50{
+    padding: 0 10px;
+    width: 50%;
+}
+
+.right{
+    float:right;
+}
+
+.left{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+/**Estilizar o Site**/
+
+header{
+    padding:22px 0;
+    background: #6e0e13;
+}
+
+header .logo{
+    font-size: 23px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: azure;
+}
+
+.logo a{
+    text-decoration: none;
+    color: azure;
+}
+
+.mobile{
+    display: none;
+}
+
+nav.desktop ul{
+    position: relative;
+    top: 6px;
+    list-style-type: none;
+}
+
+nav.desktop li{
+    font-weight: 300;
+    font-size: 16px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+nav.desktop a{
+    color: white;
+    text-decoration: none;
+}
+nav.desktop a:hover{
+    text-decoration: underline;
+}
+
+section.banner-container{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.banner-single{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position:center;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(51,51,51,0.7);
+}
+
+section.banner-container form{
+    width: 93%;
+    max-width: 500px;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+section.banner-container form h2{
+    color: azure;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+}
+
+section.banner-container form input[type=email]{
+    width: 100%;
+    height: 66px;
+    margin-top: 10px;
+    background: azure;
+    color: rgb(75, 73, 73);
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+section.banner-container form input[type=submit]{
+    width: 100%;
+    height: 66px;
+    border-radius: 10%;
+    margin-top: 10px;
+    background: #350707;
+    color:rgb(255, 240, 240);
+    cursor: pointer;
+    font-size: 22px;
+    border: 0;
+}
+
+section.descricao-autor{
+    padding:30px 0;
+}
+
+section.descricao-autor h2{
+    font-size: 28px;
+    font-weight: 200;
+    font-weight: bold;
+    color: #444;
+}
+
+section.descricao-autor p{
+    font-size: 20px;
+    color: #444;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+section.descricao-autor img{
+    width: 300px;
+    height: 500px;
+}
+
+
+section.especialidades{
+    padding: 40px 0;
+    background: #e2e2e2;
+}
+
+section.especialidades h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(61, 13, 13);
+}
+
+.box-especialidade{
+    margin: 40px 0;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.box-especialidade h3{
+    font-size: 37px;
+    color: #5f172d;
+}
+
+.box-especialidade h4{
+    font-weight: 300;
+    color: #553a42;
+    font-size: 30px;
+}
+
+section.extras{
+    padding: 35px 0;
+    background-color: #6b3f4c;
+}
+
+.servicos-container,.depoimentos-container{
+    padding: 0 50px;
+}
+
+section.extras .title{
+    color: azure;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.depoimento-single{
+    padding: 15px 0;
+    border-bottom: 1px solid #a05075;
+}
+
+p.depoimento-descricao{
+    color: azure;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+p.nome-autor{
+    color: azure;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.servicos ul{
+    margin: 20px 0;
+
+}
+
+.servicos li{
+    font-weight: 300;
+    color: azure;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+footer{
+    background: rgb(82, 18, 18);
+    padding: 20px 0;
+}
+
+footer.fixeds{
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+footer p{
+    color: azure;
+    font-weight: bold;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+section.erro{
+    min-height: 680px;
+    padding:30px 10px;
+}
+
+section.erro h2{
+    text-align: center;
+}
+
+.divi{
+    width: 100%;
+    height: 400px;
+}
+
+.contato-container{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contato-container input [type=text]{
+    margin:8px 0;
+    width: 100%;
+    height: 40px;border: 1px solid #ccc;
+    padding-left: 8px;
+    font-size: 16px;
+    color: #444;
+}
+
+.bullets{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 5;
+}
+
+.bullets span{
+    margin: 0 10px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(14, 13, 13);
+}
+
+.bullets span.active-slider{
+    background: rgb(117, 16, 16);
+}
+
+@media screen and (max-width: 768px){
+    img{
+        float:none !important;
+        display:block;
+        margin:0 auto;
+    }
+    .w50{
+        padding:20px;
+        width: 100%;
+    }
+    .w33{
+        width: 100%;
+        padding: 20px;
+    }
+    .box-especialidade{
+        margin: 0;
+        padding: 40px 20px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    nav.desktop{
+        display:none;
+    }
+    nav.mobile{
+        display: block;
+    }
+
+    .botao-menu-mobile{
+        font-size: 24px;
+        cursor: pointer;
+        color: azure;
+    }
+
+    nav.mobile ul{
+        top: 55px;
+        left: 0;
+        z-index: 3;
+        position: absolute;
+        width: 100%;
+        display: none;
+        text-align: center;
+    }
+    nav.mobile li{
+        font-weight: 300;
+        width: 100%;
+        display: block;
+        background: azure;
+        border-bottom: 1px solid #ccc;
+        font-size: 17px;
+        padding: 8px 0;
+    }
+
+    nav.mobile li a{
+        display: block;
+        color: #444;
+        text-decoration: none;
+    }
+}
