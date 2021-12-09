@@ -4,7 +4,7 @@
 <head>
     <title>Projeto</title>
     <script src="https://kit.fontawesome.com/44147d9e89.js" crossorigin="anonymous"></script><!--icon-->
-    <link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>estilo/style1.css"/><!--css-->
+    <link rel="stylesheet" href="estilo/style.css"/><!--css-->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"><!--font-->
     <meta charset="UTF-8"><!--letra-->
     <meta name="description" content="Free Web tutorials"><!--descricao-->
@@ -31,9 +31,9 @@
             <div class="logo left"><a href="/">Logomarca</a></div>
             <nav class="desktop right">
                 <ul>
-                    <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH; ?>depoimentos">Depoimentos</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviço</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="depoimentos">Depoimentos</a></li>
+                    <li><a href="servicos">Serviço</a></li>
                 </ul>
             </nav>
             <nav class="mobile right">
@@ -41,9 +41,9 @@
                 <i class="fas fa-bars"></i>
                 </div>
                 <ul>
-                    <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH; ?>depoimentos">Depoimentos</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviço</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="depoimentos">Depoimentos</a></li>
+                    <li><a href="servicos">Serviço</a></li>
                 </ul>
             </nav>
         <div class="clear"></div>
@@ -67,9 +67,9 @@
             <p>Todos os direitos reservado - Eduardo</p>
         </div><!--center-->
     </footer>
-    <script src="<?php echo INCLUDE_PATH; ?>js/jquery.js"></script>
-    <script src="<?php echo INCLUDE_PATH; ?>js/scripts.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
     
-    <script src="<?php echo INCLUDE_PATH; ?>js/slider.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 </html>
